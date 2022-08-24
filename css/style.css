@@ -1,5 +1,6 @@
 body {
     background-color: #FCF6F5FF
+    
 }
 
 hr {
@@ -15,3 +16,15 @@ h3 {color: #A13941FF;}
 h4 {color: #A13941FF;}
 h5 {color: #A13941FF;}
 h6 {color: #A13941FF;}
+
+.p{
+    color: #353838;
+}
+.t1
+{
+    color: navy;
+}
+.t2
+{
+    color: forestgreen;
+}
