@@ -1,8 +1,34 @@
+
+/* a, a:link, a:visited, a:focus, a:hover, a:active{
+    color:olive;
+    text-decoration:none; 
+    cursor: pointer;
+  } */
 body {
-    background-color: #FCF6F5FF
-    
+    background-color: rgb(255, 255, 255)
 }
 
+/* a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration:none;
+  }
+  a:visited {
+    color: rgb(216, 139, 14);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: none;
+    text-decoration: underline;
+  }
+  a:active
+  {
+    color: rgb(18, 253, 218);
+    background-color: none;
+    text-decoration: underline;
+  } */
 hr {
     background-color: #F0E1B9FF;
     border-style: none;
@@ -10,21 +36,37 @@ hr {
     width: auto;
 }
 
-h1 {color: #A13941FF;}
-h2 {color: #A13941FF;}
+h1,h2,h4,h5,h6 {color: #A13941FF;}
 h3 {color: coral;}
-h4 {color: #A13941FF;}
-h5 {color: #A13941FF;}
-h6 {color: #A13941FF;}
-
-.p{
+.p {
     color: #A13941FF;
 }
-.t1
-{
+
+thead.t1 {
     color: navy;
 }
-.t2
-{
+
+.t2 {
     color: forestgreen;
 }
+a.so:link {
+    color: green;
+    background-color: transparent;
+    text-decoration:none;
+  }
+  a.so:visited {
+    color: rgb(216, 139, 14);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a.so:hover {
+    color: red;
+    background-color: none;
+    text-decoration: underline;
+  }
+  a.so:active
+  {
+    color: rgb(18, 253, 218);
+    background-color: none;
+    text-decoration: underline;
+  }
