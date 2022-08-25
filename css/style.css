@@ -17,8 +17,6 @@ hr {
 
 h1,h2,h4,h5,h6 {color: #A13941FF;}
 h3 {color: coral;}
-
-
 thead.t1 {
     color: navy;
 }
@@ -54,8 +52,30 @@ a.so:link {
     background-color: none;
     text-decoration: underline;
   }
-
+  input.so:hover{
+    color: red;
+    background-color: none;
+    text-decoration: underline;
+  }
+  input.so:active
+  {
+    color: rgb(18, 253, 218);
+    background-color: none;
+    text-decoration: underline;
+  }
+  input.so:visited {
+    color: rgb(216, 139, 14);
+    background-color: transparent;
+    text-decoration: none;
+  }
   /***************************************************************ID**************************************************************************/
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
   #hp  {
     float: inline-start
      ;    
@@ -69,15 +89,15 @@ a.so:link {
       text-decoration: underline;
       margin-top: 0px;
       margin-bottom: 0px;
-      padding-top: 0px;
-      
+      padding-top: 0px; 
     }
     #social
     {
       text-align: center;
-      margin-top: 5%;
-    }
+      margin-top: 5%;}
     #bio
+    {padding-top: 4%; }
+    #my
     {
-      padding-top: 4%;
+      text-shadow: rgb(196, 170, 38) 1px 0 10px;
     }
