@@ -9,10 +9,11 @@ body{
     background-color: rgb(255, 255, 255)
   }
 hr {
-    background-color: #F0E1B9FF;
-    border-style: none;
-    height: 5px;
-    width: auto;
+    border-style: groove;
+    border-color: rgb(228, 147, 147);
+    width: 100%;
+    border-width: 2px;
+    border-top: unset;
 }
 
 h1,h2,h4,h5,h6 {color: #A13941FF;}
